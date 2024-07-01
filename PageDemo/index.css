@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 10px 0;
+}
+
+.sale-banner {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.sale-banner h2 {
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  gap: 20px;
+}
+
+.product-card {
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card img {
+  height: 250px; /* Adjust image height as needed */
+  object-fit: cover; /* Crop image to fit container */
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
